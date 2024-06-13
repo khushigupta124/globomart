@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="final_siginpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Montserrat&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    
+    <div class="main_box">
+      <input type="checkbox" id="check" />
+      <div class="btn_one">
+        <label for="check">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+      </div>
+
+      <div class="sidebar_menu">
+        <div class="logo">
+          <a href="#">GLOBO<span>MART</span></a>
+        </div>
+
+        <div class="btn_two">
+          <label for="check">
+            <i class="fa-solid fa-xmark"></i>
+          </label>
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li>
+              <i class="fa-solid fa-image"></i>
+              <a href="final_homepage.html">Home</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              <a href="#">Wishlist</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-photo-film"></i>
+              <a href="#">Cart</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-calendar-days"></i>
+              <a href="#">Order History</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-store"></i>
+              <a href="#">About us</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <i class="fa-regular fa-comments"></i>
+              <a href="#">Feedback</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="social_media">
+          <ul>
+            <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </ul>
+        </div>
+      </div>
+
+
+
+      <div class="container">
+        <h1>GLOBO<span>MART</span></h1>
+        <ul class="username_box">
+          <div class="box">
+            <form action="connect.php" method="post">
+          <h2>Sign Up</h2>
+          <input type="text" id="name" placeholder="Full Name" name="fullname">
+          <input type="email" id="email" placeholder="Email" name="email">
+          <input type="tel" id="phno" placeholder="Mobile Number" name="number" pattern="[0-9]{10}" required>
+          <input type="text" id="username1" placeholder="Username" name="username">
+          <input type="password" id="password1" placeholder="Password" name="password" onkeyup="return validate()">
+          <div class="errors">
+            <ul>
+              <li id="upper">Atleast one uppercase</li>
+              <li id="lower">Atleast one lowercase</li>
+              <li id="special_char">Atleast one special symbol</li>
+              <li id="number">Atleast one number</li>
+              <li id="length">Atleast 8 characters</li>
+            </ul>
+          </div>
+          
+          <button class="sub" type="submit" value="register">Create Account</button>  
+          <header class="login">
+            <p>Already a user? <a href="final_login_page.html">Login</a></p>
+          </header>
+            </form>
+          </div>
+          
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      function validate(){
+        var pass=document.getElementById('password1');
+        var upper=document.getElementById('upper');
+        var lower=document.getElementById('lower');
+        var num=document.getElementById('number');
+        var len=document.getElementById('length');
+        var sp_char=document.getElementById('special_char');
+      if(pass.value.match(/[0-9]/)){
+        num.style.color='green'
+      }
+      else{
+        num.style.color='red'
+      }
+      if(pass.value.match(/[A-Z]/)){
+        upper.style.color='green'
+      }
+      else{
+        upper.style.color='red'
+      }
+      if(pass.value.match(/[a-z]/)){
+        lower.style.color='green'
+      }
+      else{
+        lower.style.color='red'
+      }
+      if(pass.value.match(/[!\@\#\$\%\^\&\*\(\)\_\-\+\=\?\>\<\.\,]/)){
+        sp_char.style.color='green'
+      }
+      else{
+        sp_char.style.color='red'
+      }
+      if(pass.value.length<8){
+        len.style.color='red'
+      }
+      else{
+        len.style.color='green'
+      }
+      }
+    </script>
+  </body>
+</html>
+
+
+

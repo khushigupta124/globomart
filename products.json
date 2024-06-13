@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "name":" LD01 LOUNGE CHAIR",
+        "price": 200,
+        "image": "1.png"
+    },
+    {
+        "id": 2,
+        "name":" LD02 LOUNGE CHAIR",
+        "price": 250,
+        "image": "2.png"
+    },
+    {
+        "id": 3,
+        "name":" LD03 LOUNGE CHAIR",
+        "price": 180,
+        "image": "3.png"
+    },
+    {
+        "id": 4,
+        "name":" LD04 LOUNGE CHAIR",
+        "price": 250,
+        "image": "4.png"
+    },
+    {
+        "id": 5,
+        "name":" LD05 LOUNGE CHAIR",
+        "price": 300,
+        "image": "5.png"
+    },
+    {
+        "id": 6,
+        "name":" LD06 LOUNGE CHAIR",
+        "price": 250,
+        "image": "6.png"
+    },
+    {
+        "id": 7,
+        "name":" LD07 LOUNGE CHAIR",
+        "price": 200,
+        "image": "7.png"
+    },
+    {
+        "id": 8,
+        "name":" LD08 LOUNGE CHAIR",
+        "price": 200,
+        "image": "8.png"
+    },
+    {
+        "id": 9,
+        "name":" LD09 SOFA SET",
+        "price": 800,
+        "image": "9.png"
+    },
+    {
+        "id": 10,
+        "name":" LD10 SOFA SET",
+        "price": 500,
+        "image": "10.jpeg.jpg"
+    },
+    {
+        "id": 11,
+        "name":" LD11 SOFA SET",
+        "price": 600,
+        "image": "11.webp"
+    },
+    {
+        "id": 12,
+        "name":" LD12 SOFA SET",
+        "price": 550,
+        "image": "12.png"
+    },
+    {
+        "id": 13,
+        "name":" LD13 COFFEE TABLE",
+        "price": 300,
+        "image": "13.png"
+    },
+    {
+        "id": 14,
+        "name":" LD14 COFFEE TABLE",
+        "price": 250,
+        "image": "14.png"
+    },
+    {
+        "id": 15,
+        "name":" LD15 COFFEE TABLE",
+        "price": 200,
+        "image": "15.png"
+    },
+    {
+        "id": 16,
+        "name":" LD16 COFFEE TABLE",
+        "price": 180,
+        "image": "16.png"
+    }
+
+    
+
+]
